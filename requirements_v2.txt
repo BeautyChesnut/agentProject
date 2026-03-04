@@ -1,0 +1,21 @@
+# Agent Project V2 - 模块化版本依赖
+
+# LangChain 核心
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-openai>=0.0.5
+
+# OpenAI 客户端（公司内网）
+openai>=1.0.0
+
+# 智谱 GLM
+zhipuai>=2.0.0
+
+# 环境变量
+python-dotenv>=1.0.0
+
+# HTTP 请求
+requests>=2.31.0
+
+# 可选：MCP SDK（如果使用完整的 MCP 协议）
+# mcp>=0.1.0
