@@ -1,0 +1,28 @@
+# Agent Project V4 - LangGraph 版本依赖
+
+# LangChain 核心
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
+
+# LangGraph（图结构编排）
+langgraph>=0.0.20
+
+# OpenAI 客户端（公司内网）
+openai>=1.0.0
+
+# 智谱 GLM
+zhipuai>=2.0.0
+
+# Pydantic（用于 Tool 输入验证）
+pydantic>=2.0.0
+
+# 环境变量
+python-dotenv>=1.0.0
+
+# HTTP 请求
+requests>=2.31.0
+
+# SQLite（用于状态持久化）
+# 内置，无需安装
