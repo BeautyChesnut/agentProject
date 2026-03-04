@@ -1,0 +1,27 @@
+{
+  "models": {
+    "chat": {
+      "provider": "openai",
+      "base_url": "http://your-company-llm.internal:8000/v1",
+      "model": "your-model-name",
+      "api_key": "your-api-key-here",
+      "temperature": 0.7,
+      "max_tokens": 2048
+    },
+    "embedding": {
+      "provider": "openai",
+      "base_url": "http://your-company-embedding.internal:8000/v1",
+      "model": "your-embedding-model",
+      "api_key": "your-api-key-here"
+    }
+  },
+  "mcp": {
+    "weather": {
+      "server": "open-meteo",
+      "transport": "stdio",
+      "enabled": true
+    }
+  },
+  "environment": "company",
+  "description": "公司内网模型配置示例 - 请复制为 opencode.json 并填入实际配置"
+}

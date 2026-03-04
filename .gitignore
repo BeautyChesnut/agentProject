@@ -19,6 +19,10 @@ env/
 .env.local
 .env.*.local
 
+# 公司内网配置（可能包含敏感信息）
+opencode.json
+!opencode.json.example
+
 # 测试和缓存
 .pytest_cache/
 .mypy_cache/
